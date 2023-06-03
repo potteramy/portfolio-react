@@ -1,38 +1,88 @@
+
+  /* 
+  3A4E48
+  6A7B76
+  8B9D83
+  BEB0A7
+  */
+
+
 .App {
-  text-align: center;
+  background-image: url(../public/sina-bahar-71vneqmRcGU-unsplash-resized.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10px;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-body {
+  padding: 30px;
+  background: #BEB0A7;
+  font-family: monospace;
+  min-height: 50%;
+  border-radius: 5px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background: rgb(28, 26, 26);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 3px solid #BEB0A7;
+}
+.Header-nav{
+  font-size: 30px;
+  font-weight: bold;
+  align-self: flex-end;
+
+}
+
+.Header-name{
+  font-family: monospace;
+  font-size: 50px;
+  color:#B75D69;
+}
+.App-about {
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-evenly;
+  border-radius: 5px;
+
+}
+.App-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: rgb(28, 26, 26);
+  color:#B75D69;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #BEB0A7;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.About-text {
+  width: 50%;
+}
+img {
+  border-radius: 5px;
+}
+a:link {
+  color:#EACDC2;
+  
+}
+a:visited {
+  color:#B75D69;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color:#cbb1ba;
 }
