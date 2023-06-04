@@ -10,6 +10,10 @@ const Footer = () => {
         <a href="tel:9999999999">999-999-9999</a>
         </div>
         <div>
+        <h4>LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/amy-potter-34aa18277/">Amy Potter</a>
+        </div>
+        <div>
         <h4>GitHub</h4>
         <a href="https://github.com/potte464/">PotterAmy</a>
         </div>

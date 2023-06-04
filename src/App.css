@@ -18,23 +18,28 @@
 
 .App-body {
   padding: 30px;
-  background: #BEB0A7;
+  background: rgb(190, 176, 167, 0.9);
   font-family: monospace;
   min-height: 50%;
   border-radius: 5px;
-
+  font-size: large;
+  /* margin-top: 110px; */
+  
 }
 
 
 
 .App-header {
+  /* position: fixed; */
   display: flex;
   justify-content: space-between;
+
   padding: 10px;
   background: rgb(28, 26, 26);
   margin-bottom: 20px;
   border-radius: 5px;
   border: 3px solid #BEB0A7;
+  order: 1;
 }
 .Header-nav{
   font-size: 30px;
@@ -57,6 +62,22 @@
   border-radius: 5px;
 
 }
+.About-text {
+  width: 50%;
+}
+.Portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.Portfolio-card {
+  margin: 10px;
+  
+  
+}
+
+
 .App-footer {
   display: flex;
   justify-content: space-evenly;
@@ -67,16 +88,20 @@
   border-radius: 5px;
   border: 3px solid #BEB0A7;
   align-items: center;
+  font-family: monospace;
 
 }
-.About-text {
-  width: 50%;
-}
+
 img {
   border-radius: 5px;
+
+}
+.portrait {
+  border-radius: 5px;
+  max-height: 300px;
 }
 a:link {
-  color:#EACDC2;
+  color:#cd9985;
   
 }
 a:visited {
@@ -84,5 +109,5 @@ a:visited {
 }
 
 a:hover {
-  color:#cbb1ba;
+  color:#a4808d;
 }
