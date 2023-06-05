@@ -28,7 +28,7 @@ export default function Portfolio() {
           <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src={FreshCatch} />
       <Card.Body>
-        <Card.Title>Minnesota Fesh Catch</Card.Title>
+        <Card.Title>Minnesota Fresh Catch</Card.Title>
         <Card.Text>
           Group Project: App for logging fish caught in Minneapolis using MySQL2 and Handlebars.
         </Card.Text>
