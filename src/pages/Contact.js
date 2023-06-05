@@ -1,13 +1,13 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Contact() {
   const [ name, setName ] = useState("");
   const [ email, setEmail] = useState('');
   const [ message, setMessage] = useState('');
-  const [contact, setContact] = useState([])
+  // const [contact, setContact] = useState([])
 
   // const submit=(e)=>{
   //   e.preventDefault()
@@ -19,11 +19,7 @@ export default function Contact() {
 
   return (
     <div>
-      {/* {contact? (
-        <div>
-          <h3>Your message has been sent</h3>
-        </div>
-      ) : ( */}
+
     <div className="App-body">
       <div className="App-contact">
         <Form   target="_blank" action="https://formsubmit.co/potteramylynn@gmail.com" method="POST">
@@ -57,6 +53,7 @@ export default function Contact() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
+            <input type="hidden" name="_next" value="https://amypotter.herokuapp.com/thanks"></input>
             <Button variant="secondary" type="submit" >
               Contact
             </Button>
@@ -64,7 +61,7 @@ export default function Contact() {
         </Form>
       </div>
     </div>
-    {/*  )} */}
+
     </div>
   );
 }

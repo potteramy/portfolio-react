@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import Thanks from "./pages/Thanks";
 
 
 
@@ -26,6 +27,7 @@ function App() {
               <Route path="/Portfolio" element= {<Portfolio/>} />
               <Route path="/Resume" element= {<Resume/>} />
               <Route path="/Contact"  element= {<Contact/>} />
+              <Route path="/Thanks"  element= {<Thanks/>} />
             </Routes>
           </div>
         <Footer/>
