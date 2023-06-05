@@ -1,4 +1,4 @@
-import React from "react";
+
 import AboutImage from "./../portrait.jpg"
 
 export default function About() {

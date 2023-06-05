@@ -53,7 +53,6 @@ export default function Contact() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
-            <input type="hidden" name="_next" value="https://amypotter.herokuapp.com/thanks"></input>
             <Button variant="secondary" type="submit" >
               Contact
             </Button>
