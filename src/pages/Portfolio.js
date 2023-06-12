@@ -13,14 +13,14 @@ export default function Portfolio() {
           <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src="https://placekitten.com/300/300" />
       <Card.Body>
-        <Card.Title>Group Project 3 </Card.Title>
+        <Card.Title>Social Garden</Card.Title>
         <Card.Text>
-          Group Project 3
+          Group Project: Social media for gardeners.
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github Repo</Card.Link>
+        <Card.Link href="https://social-garden.herokuapp.com/">Live Site</Card.Link>
+        <Card.Link href="https://github.com/buster35/social-garden">Github Repo</Card.Link>
       </Card.Body>
     </Card>
     </div>
