@@ -16,7 +16,8 @@ export default function Contact() {
   //   console.log(messageObj)
   // }
  
-
+  //react email validator
+  // email.JS
   return (
     <div>
 
