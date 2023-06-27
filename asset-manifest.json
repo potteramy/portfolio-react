@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.8b43208f.css",
-    "main.js": "/portfolio-react/static/js/main.389b732b.js",
+    "main.js": "/portfolio-react/static/js/main.01096415.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/sina-bahar-71vneqmRcGU-unsplash-resized.jpg": "/portfolio-react/static/media/sina-bahar-71vneqmRcGU-unsplash-resized.a9589b31150ed7a88979.jpg",
+    "static/media/social-garden.png": "/portfolio-react/static/media/social-garden.b3a679993ffd00560762.png",
     "static/media/portrait.jpg": "/portfolio-react/static/media/portrait.5e231dd9d88a52affd52.jpg",
     "static/media/minnesota-fresh-catch.png": "/portfolio-react/static/media/minnesota-fresh-catch.05abc5b431177a6426ae.png",
-    "static/media/Resume.pdf": "/portfolio-react/static/media/Resume.5d33b256d4042c6d2ec1.pdf",
     "static/media/live-events-search.png": "/portfolio-react/static/media/live-events-search.eacc28d595b0d72b3c2c.png",
+    "static/media/Resume.pdf": "/portfolio-react/static/media/Resume.65f73a829c15b7d95283.pdf",
+    "static/media/weather-api.png": "/portfolio-react/static/media/weather-api.2e0c49965cfb863813e7.png",
+    "static/media/employee-tracker.png": "/portfolio-react/static/media/employee-tracker.57e7333661fbdcac8bba.png",
+    "static/media/social-network-api.png": "/portfolio-react/static/media/social-network-api.36d1e31a9fc49d0fc116.png",
     "index.html": "/portfolio-react/index.html",
     "main.8b43208f.css.map": "/portfolio-react/static/css/main.8b43208f.css.map",
-    "main.389b732b.js.map": "/portfolio-react/static/js/main.389b732b.js.map",
+    "main.01096415.js.map": "/portfolio-react/static/js/main.01096415.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b43208f.css",
-    "static/js/main.389b732b.js"
+    "static/js/main.01096415.js"
   ]
 }
