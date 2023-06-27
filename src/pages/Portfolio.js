@@ -4,7 +4,7 @@ import FreshCatch from "../minnesota-fresh-catch.png"
 import LiveEvent from "../live-events-search.png"
 import SocialGarden from "../social-garden.png"
 import EmployeeTracker from "../employee-tracker.png"
-import SocialNetworkAPI from "../social-networ-api.png"
+import SocialNetworkAPI from "../social-network-api.png"
 import WeatherAPI from "../weather-api.png"
 
 export default function Portfolio() {
