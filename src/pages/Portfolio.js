@@ -2,6 +2,10 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import FreshCatch from "../minnesota-fresh-catch.png"
 import LiveEvent from "../live-events-search.png"
+import SocialGarden from "../social-garden.png"
+import EmployeeTracker from "../employee-tracker.png"
+import SocialNetworkAPI from "../social-networ-api.png"
+import WeatherAPI from "../weather-api.png"
 
 export default function Portfolio() {
   return (
@@ -11,7 +15,7 @@ export default function Portfolio() {
       <div className= "Portfolio-container">
         <div className="Portfolio-card">
           <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src="https://placekitten.com/300/300" />
+      <Card.Img variant="top" src={SocialGarden} />
       <Card.Body>
         <Card.Title>Social Garden</Card.Title>
         <Card.Text>
@@ -56,49 +60,44 @@ export default function Portfolio() {
     </div>
     <div className="Portfolio-card">
           <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src="https://placekitten.com/300/300" />
+      <Card.Img variant="top" src={EmployeeTracker}/>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Employee Tracker</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          A command line application using MySQL2, Node.js, console.table, and Inquirer
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github Repo</Card.Link>
+        <Card.Link href="https://github.com/potteramy/employee-tracker">Github Repo</Card.Link>
       </Card.Body>
     </Card>
     </div>
     <div className="Portfolio-card">
           <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src="https://placekitten.com/300/300" />
+      <Card.Img variant="top" src={SocialNetworkAPI} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Social Network API</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          A social network API using NodeJS, ExpressJS, and MongoDB.
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github Repo</Card.Link>
+        <Card.Link href="https://github.com/potteramy/social-network-api">Github Repo</Card.Link>
       </Card.Body>
     </Card>
     </div>
     <div className="Portfolio-card">
           <Card style={{ width: '25rem' }}>
-      <Card.Img variant="top" src="https://placekitten.com/300/300" />
+      <Card.Img variant="top" src={WeatherAPI} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Weather Dashboard</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Weather application using OpenWeather API
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github Repo</Card.Link>
+        <Card.Link href="https://potteramy.github.io/weather-api/">Live Site</Card.Link>
+        <Card.Link href="https://github.com/potteramy/weather-api">Github Repo</Card.Link>
       </Card.Body>
     </Card>
     </div>
